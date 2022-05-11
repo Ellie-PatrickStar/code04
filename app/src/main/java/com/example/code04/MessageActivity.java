@@ -16,7 +16,7 @@ public class MessageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_message);
 
-        TextView tvMessage = findViewById(R.id.message);
+        TextView tvMessage = findViewById(R.id.tvMessage);
         Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.MESSAGE_STRING);
         if (message != null) {
